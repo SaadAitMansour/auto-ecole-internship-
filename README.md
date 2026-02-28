@@ -1,46 +1,53 @@
-📘 Projet Gestion des Élèves – Afriq Formation
+📘 Student Management Project – Afriq Formation
+
 📌 Description
-Ce projet est une application web développée avec Laravel et Blade pour la gestion des élèves d’une auto-école.
-Il permet d’ajouter, modifier, supprimer et consulter les informations des élèves, ainsi que de gérer leurs formations.
+This project is a web application developed with Laravel and Blade for managing students of a driving school.
+It allows users to add, edit, delete, and view student information, as well as manage their training programs.
 
-🚀 Fonctionnalités principales
-CRUD Élèves : création, édition, suppression et affichage des élèves.
+🚀 Main Features
 
-Validation des formulaires avec messages d’erreur clairs (ex. : numéro de permis obligatoire).
+Students CRUD: create, edit, delete, and display students.
 
-Interface utilisateur responsive avec Bootstrap.
+Form validation with clear error messages (e.g., driver’s license number required).
 
-Relations Eloquent : gestion des liens entre élèves et formations (belongsToMany).
+Responsive user interface using Bootstrap.
 
-Messages de succès après chaque opération (ajout ou mise à jour).
+Eloquent relationships: managing connections between students and training programs (belongsToMany).
 
-🛠️ Technologies utilisées
-Laravel 10+ (framework backend PHP)
+Success messages after each operation (add or update).
 
-Blade (moteur de templates Laravel)
+🛠️ Technologies Used
 
-Bootstrap 5 (interface responsive)
+Laravel 10+ (PHP backend framework)
 
-MySQL (base de données)
+Blade (Laravel templating engine)
 
-Cloner le projet :
+Bootstrap 5 (responsive interface)
+
+MySQL (database)
+
+📥 Installation
+
+Clone the project:
+
 git clone https://github.com/ton-compte/afriq-formation-eleves.git
 cd afriq-formation-eleves
 
-Installer les dépendances :
+Install dependencies:
+
 composer install
 npm install && npm run dev
 
+Configure the environment:
 
-Configurer l’environnement :
 DB_DATABASE=afriq_formation
 DB_USERNAME=root
 DB_PASSWORD=
 
-Lancer les migrations :
+Run migrations:
+
 php artisan migrate
 
+Start the local server:
 
-Démarrer le serveur local :
 php artisan serve
-
